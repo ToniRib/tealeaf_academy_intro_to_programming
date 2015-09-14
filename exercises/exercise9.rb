@@ -9,4 +9,4 @@ h[:b]
 h[:e] = 5
 
 # part 3
-# TODO! left off here
+h.delete_if { |k, v| v < 3.5 }
